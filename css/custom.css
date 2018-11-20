@@ -1,0 +1,120 @@
+.slides > section {
+    height:100vh;
+    background-image: url('../img/pattern.png');
+    background-color: black;
+}
+
+.slides > section > section:first-child > div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slides > section > section:last-child > div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slides > section > section:first-child > div h2{
+    font-size: 2.2em;
+    margin-bottom:0;
+}
+
+#intro h1 {
+    font-size: 2.7em;
+}
+
+#intro img {
+    max-height: 40vh;
+    border:0;
+}
+
+#antipatterns > section {
+    background-image: url('../img/antipatterns.jpg');
+    background-size: cover;
+}
+
+#antipatterns > section > section {
+    background-color: rgba(132, 0, 165, 0.9);
+    background-blend-mode: soft-light;
+}
+
+#antipatterns > section > section > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+#antipatterns > section > section > ul img{
+    border: 0;
+    max-height: 30vh;
+}
+
+#godclass > section {
+    background-image: url('../img/god.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+#godclass > section > section {
+    width: 60vw;
+    height: 100vh;
+    background-color: rgba(0, 56, 94, 0.90);
+    background-blend-mode: soft-light;
+}
+
+#godclass img {
+    border: 0;
+    max-height: 60vh;
+}
+
+#goldenplating > section {
+    background-image: url('../img/golden.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+#goldenplating > section > section {
+    width: 60vw;
+    height: 100vh;
+    right: 0;
+    background-color: rgba(94, 53, 0, 0.9);
+    background-blend-mode: soft-light;
+}
+
+#notinventedhere > section {
+    background-image: url('../img/notinvented.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+#notinventedhere > section > section {
+    width: 60vw;
+    height: 100vh;
+    background-color: rgba(97, 97, 97, 0.9);
+    background-blend-mode: soft-light;
+}
+
+#notinventedhere img {
+    border: 0;
+    max-height: 80vh;
+}
+
+#analysisparalysis > section {
+    background-image: url('../img/paralysis.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+#analysisparalysis > section > section {
+    width: 60vw;
+    height: 100vh;
+    right: 0;
+    background-color: rgba(109, 0, 0, 0.9);
+    background-blend-mode: soft-light;
+}
